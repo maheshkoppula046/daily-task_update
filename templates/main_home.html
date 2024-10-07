@@ -1,0 +1,24 @@
+<!-- dailyActivity/templates/main_home.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Home Page</title>
+    <!-- Load static tag -->
+    
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" type="text/css" href="{% static 'today/css/style.css' %}">
+</head>
+<body>
+    <div class="container-fluid full-height d-flex justify-content-center align-items-center">
+        <div class="text-center">
+            <h1 class="mt-5">Welcome to the Main Home Page of the Project</h1>
+            <p>This is the default page of the entire project.</p>
+            <a href="{% url 'home' %}" class="btn btn-primary mt-3">Go to Today App Home</a>
+        </div>
+    </div>
+</body>
+</html>
+

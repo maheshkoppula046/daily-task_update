@@ -1,0 +1,45 @@
+/* styles.css */
+
+/* Ensure the body takes full height */
+body {
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Change font style */
+    background-color: #f8f9fa; /* Light background color */
+}
+
+/* Container to center content */
+.container-fluid {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Full height of the container */
+}
+
+/* Text styling */
+h1 {
+    font-size: 2.5rem; /* Large font size for the heading */
+    color: #343a40; /* Darker text color */
+}
+
+p {
+    font-size: 1.2rem; /* Medium font size for the paragraph */
+    color: #6c757d; /* Gray text color */
+}
+
+/* Button styling */
+.btn {
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 1rem; /* Button font size */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from link */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+

@@ -1,0 +1,17 @@
+<!-- today/templates/today/home.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'today/css/style.css' %}">
+</head>
+<body>
+    <h2>Welcome to the Home Page</h2>
+    <p>You are logged in as {{ user.username }}.</p>
+    <a href="{% url 'logout' %}">Logout</a><br>
+    <a href="{% url 'upload_task' %}">upload-task</a>
+</body>
+</html>
